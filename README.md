@@ -6,3 +6,7 @@ the high level architecture taken from the [paper](https://arxiv.org/pdf/2205.14
 <br></br>
 <img width="1408" height="532" alt="image" src="https://github.com/user-attachments/assets/7c1d7c47-f05b-423e-aaf2-64041a6cd7cd" />
 
+---
+
+- the minimal forward pass is written in less then 150 lines of cuda
+- naming conventions followed are very similar to the paper
