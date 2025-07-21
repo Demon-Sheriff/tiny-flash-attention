@@ -11,8 +11,21 @@ the high level architecture taken from the [paper](https://arxiv.org/pdf/2205.14
 ##### `the minimal forward pass is written in less then 150 lines of cuda`
 ##### `naming conventions followed are very similar to the paper`
 
+#### `Profiling on my RTX-3050`
+```
+=== profiling manual attention ===
+...
+Self CPU time total: 52.389ms
+Self CUDA time total: 52.545ms
 
-## NOTE : 
+=== profiling minimal flash attention === 
+...  
+Self CPU time total: 11.452ms
+Self CUDA time total: 3.908ms
+```
+
+
+## `NOTE :`
 
 #### `back pass is to implemented`
 #### `setting block sizes dynamically is also to be implemented`
