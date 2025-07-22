@@ -27,5 +27,15 @@ Self CUDA time total: 3.908ms
 
 ## `NOTE :`
 
+
+* `the thread-per-row simplification makes the matrix multiplications very slow. This is probably why for longer
+sequences and larger block sizes, this gets slower than the manual implementation.`
+
+
+* `in the inner loop, i assign each thread to a row of the output matrix. This differs from the original implementation.`
+
+
+* `Q,K,Vs are in float32 which is unlike the original implementation which uses float16.`
+
 #### `back pass is to implemented`
 #### `setting block sizes dynamically is also to be implemented`
