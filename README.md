@@ -1,6 +1,8 @@
-# tiny-flash-attention
+# `tiny-flash-attention`
 
-`this repo is my attempt at re-creating the flash-attention paper in cuda` 
+### `this repo is my attempt at re-creating the flash-attention paper in cuda` 
 
-the paper can be found [here](https://arxiv.org/pdf/2205.14135)
+the high level architecture taken from the [paper](https://arxiv.org/pdf/2205.14135)
+<br></br>
+<img width="1408" height="532" alt="image" src="https://github.com/user-attachments/assets/7c1d7c47-f05b-423e-aaf2-64041a6cd7cd" />
 
